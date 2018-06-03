@@ -1,0 +1,277 @@
+/* No se por que pero no me deja importar el estilo, lo puse desde el html, es para la imagen gris de fondo
+body {
+    background: url("imagenes/fondo-gris.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+.bienvenida
+{
+    background-color: rgba(255,255,255,0.9);
+    color: #000;
+    font-size: 20px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.noTePeguesArriba{
+    margin-top: 20px;
+}
+
+.noTePeguesAbajo{
+    margin-bottom: 20px;
+}
+
+.fondo{
+    background-color: rgba(255,255,255,0.7);
+}
+
+.fondoConfig{
+    background-color: rgba(255,255,255,1);
+}
+
+.form-login
+{
+    background-color:rgba(255,255,255,0.5);
+    width:50%; 
+    margin:20% auto; 
+    text-align: center;
+}
+
+.veteArriba{
+    margin-top: 10px;
+}
+
+.colorBoton
+{
+    background-color: #255625;
+}
+
+.centrarEnPagina{
+    margin-top: 100px;
+}
+
+.alinearIzquierda{
+    margin-left: 5px;
+}
+
+#jumbotron_index{
+    background-color: #212121;        
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat;
+}
+
+.logo{
+    color: #000;
+    font-size: 300px;
+}
+
+h4.status{
+    font-size: 20px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.div_fondo_gris{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 0px 40px rgba(0,0,0,.4);
+    -webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+    -moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+    border-radius: 3px;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.paquetes p {
+    font-style: italic;
+}
+
+strong {
+    font-size: 30px;
+}
+
+.panel:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0,.4);
+}
+
+#imagen_fondo{
+    width: 400px;
+    height: 300px;
+    background: url('../Imagenes/index_paquetes_depabasico.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#info{
+    position: absolute;
+    overflow: hidden;    
+    width: 390px;
+    height: 290px;
+    background-color: rgba(31, 31, 31, .9);
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    opacity: 0;
+}
+
+#imagen_fondo:hover #info{
+    opacity: 1;
+}
+
+#head{
+    color: #FFF;
+    -webkit-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    -o-transition: margin 0.3s;
+    margin-left: -100px;
+}
+
+#imagen_fondo:hover #head{
+    margin-left: 0;
+}
+
+#description{
+    color: #000;    
+    font-size: 15px;
+}
+
+#imagen_fondo:hover #description{
+    margin-left: 0;    
+}
+
+#boton_index_compra {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+#boton_index_compra:hover, #boton_index_compra:focus {
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.centrado{    
+    margin-top: 2%;
+    margin-left: 30%;     
+}
+
+#paquete_basico{
+    background: url('../Imagenes/index_paquetes_depabasico.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#paquete_pro{
+    background: url('../Imagenes/index_paquetes_casapro.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#paquete_premium{
+    background: url('../Imagenes/index_paquetes_casapremium.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #4d4d4d;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #000 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #4d4d4d !important;
+    background-color: #cccccc !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #000 !important;
+}
+
+#miCuenta, #cerraduras, #alacena,#Habitacion2,#Habitacion4,#Habitacion6{
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+h4.cuenta{
+    color: #fff;
+    line-height: 1.375em;    
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#illustration404 {
+    background: url("../Imagenes/404.gif") no-repeat 50% 55%;
+    max-width: 100%;
+    min-height: 480px;
+    background-size: 100%;
+}
+
+#illustration500 {
+    background: url("../Imagenes/confused_travolta.gif") no-repeat 50% 55%;
+    max-width: 50%;
+    min-height: 350px;
+    background-size: 100%;
+    margin: auto;
+}
+
+#error{
+    background: url('../Imagenes/errorBackground.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+
+.error_cabron {
+    margin: auto;
+    width: 100%;
+}
+
+.the_content_404 {
+    font-size: 1.3rem;
+    margin: 30px 0 60px 0;
+    text-align: center;
+}
+
+#jumbotron_error{
+    background-color: #212121;        
+    color: #fff;
+    padding: 10px 25px;
+    font-family: Montserrat;
+}
